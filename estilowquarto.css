@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("pacote-d013/imagens/fundo-madeira.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 97.4vh;
+}
+
+
+
+#celular{
+    display: inline-block;
+    margin: 0%;
+    background-image: url("pacote-d013/imagens/frame-iphone.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30vw;
+    width: 15vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#visao{
+    position: relative;
+    left: 7%;
+    top: 12.5%;
+    width: 86.5%;
+    height: 76.5%;
+}
+
+#home{
+    background-image: url("pacote-d013/imagens/logo-home.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+ 
+    background-color: red;
+    position: absolute;
+    top: 3%;
+    left: 99%;
+    transform: translate(-99%);
+}
+
+#you{
+    background-image: url("pacote-d013/imagens/logo-youtube.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: red;
+    position: absolute;
+    top: 15%;
+    left: 99%;
+    transform: translate(-99%);
+}
+
+#git{
+    background-image: url("pacote-d013/imagens/logo-github.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 27%;
+    left: 99%;
+    transform: translate(-99%);
+}
+
+#inta{
+    background-image: url("pacote-d013/imagens/logo-instagram.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 39%;
+    left: 99%;
+    transform: translate(-99%);
+}
+
+#twitter{
+    background-image: url("pacote-d013/imagens/logo-twitter.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 51%;
+    left: 99%;
+    transform: translate(-99%);
+
+}
+
+#face{
+    background-image: url("pacote-d013/imagens/logo-facebook.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 63%;
+    left: 99%;
+    transform: translate(-99%);
+}
+
+.sociais:hover{
+    height: 65px;
+    width: 65px;
+    border: 2px solid white;
+
+}
+
+.sociais{   
+    height: 60px;
+    width:  60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
