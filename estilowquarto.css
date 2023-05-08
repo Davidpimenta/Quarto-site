@@ -8,9 +8,6 @@ body{
     margin: 0%;
 }
 
-#conteiner{
-    
-}
 
 #celular{
     display: inline-block;
@@ -38,7 +35,6 @@ body{
     background-image: url("pacote-d013/imagens/logo-home.jpg");
     background-repeat: no-repeat;
     background-size: contain;
- 
     background-color: red;
     position: absolute;
     top: 3%;
@@ -102,7 +98,6 @@ body{
     height: 65px;
     width: 65px;
     border: 2px solid white;
-
 }
 
 .sociais{   
