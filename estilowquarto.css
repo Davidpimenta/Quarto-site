@@ -32,72 +32,60 @@ body{
 }
 
 #home{
+    grid-area: home;
     background-image: url("pacote-d013/imagens/logo-home.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: red;
-    position: absolute;
-    top: 3%;
-    left: 99%;
-    transform: translate(-99%);
 }
 
 #you{
+    grid-area: you;
     background-image: url("pacote-d013/imagens/logo-youtube.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: red;
-    position: absolute;
-    top: 15%;
-    left: 99%;
-    transform: translate(-99%);
+
 }
 
 #git{
+    grid-area: git;
     background-image: url("pacote-d013/imagens/logo-github.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-    top: 27%;
-    left: 99%;
-    transform: translate(-99%);
+
 }
 
 #inta{
+    grid-area: insta;
     background-image: url("pacote-d013/imagens/logo-instagram.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-    top: 39%;
-    left: 99%;
-    transform: translate(-99%);
+
 }
 
 #twitter{
+    grid-area: twitter;
     background-image: url("pacote-d013/imagens/logo-twitter.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-    top: 51%;
-    left: 99%;
-    transform: translate(-99%);
-
 }
 
 #face{
+    grid-area: face;
     background-image: url("pacote-d013/imagens/logo-facebook.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
-    top: 63%;
-    left: 99%;
-    transform: translate(-99%);
+
+
 }
 
 .sociais:hover{
-    height: 65px;
-    width: 65px;
+    
     border: 2px solid white;
+    transform: translate(-3px,-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    transition: transform .5s, border 0.3s;
 }
 
 .sociais{   
@@ -105,5 +93,12 @@ body{
     width:  60px;
     border-radius: 50%;
     display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    box-sizing: border-box;
 }
 
+nav{
+    display: grid;
+    justify-content: right;
+    gap: 2vw;
+}
